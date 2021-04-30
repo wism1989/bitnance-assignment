@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2C719E1263C71D000EC62FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C719E0263C71D000EC62FE /* AppDelegate.swift */; };
+		A2C719E3263C71D000EC62FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C719E2263C71D000EC62FE /* SceneDelegate.swift */; };
+		A2C719E5263C71D000EC62FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C719E4263C71D000EC62FE /* ViewController.swift */; };
+		A2C719E8263C71D000EC62FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2C719E6263C71D000EC62FE /* Main.storyboard */; };
+		A2C719EA263C71D100EC62FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2C719E9263C71D100EC62FE /* Assets.xcassets */; };
+		A2C719ED263C71D100EC62FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2C719EB263C71D100EC62FE /* LaunchScreen.storyboard */; };
+		A2C719F8263C71D100EC62FE /* bitnance_assignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C719F7263C71D100EC62FE /* bitnance_assignmentTests.swift */; };
+		A2C71A03263C71D100EC62FE /* bitnance_assignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C71A02263C71D100EC62FE /* bitnance_assignmentUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2C719F4263C71D100EC62FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2C719D5263C71D000EC62FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2C719DC263C71D000EC62FE;
+			remoteInfo = "bitnance assignment";
+		};
+		A2C719FF263C71D100EC62FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2C719D5263C71D000EC62FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2C719DC263C71D000EC62FE;
+			remoteInfo = "bitnance assignment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2C719DD263C71D000EC62FE /* bitnance assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bitnance assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2C719E0263C71D000EC62FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2C719E2263C71D000EC62FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A2C719E4263C71D000EC62FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2C719E7263C71D000EC62FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2C719E9263C71D100EC62FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2C719EC263C71D100EC62FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2C719EE263C71D100EC62FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2C719F3263C71D100EC62FE /* bitnance assignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bitnance assignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2C719F7263C71D100EC62FE /* bitnance_assignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bitnance_assignmentTests.swift; sourceTree = "<group>"; };
+		A2C719F9263C71D100EC62FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2C719FE263C71D100EC62FE /* bitnance assignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bitnance assignmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2C71A02263C71D100EC62FE /* bitnance_assignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bitnance_assignmentUITests.swift; sourceTree = "<group>"; };
+		A2C71A04263C71D100EC62FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2C719DA263C71D000EC62FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C719F0263C71D100EC62FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C719FB263C71D100EC62FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2C719D4263C71D000EC62FE = {
+			isa = PBXGroup;
+			children = (
+				A2C719DF263C71D000EC62FE /* bitnance assignment */,
+				A2C719F6263C71D100EC62FE /* bitnance assignmentTests */,
+				A2C71A01263C71D100EC62FE /* bitnance assignmentUITests */,
+				A2C719DE263C71D000EC62FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2C719DE263C71D000EC62FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2C719DD263C71D000EC62FE /* bitnance assignment.app */,
+				A2C719F3263C71D100EC62FE /* bitnance assignmentTests.xctest */,
+				A2C719FE263C71D100EC62FE /* bitnance assignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2C719DF263C71D000EC62FE /* bitnance assignment */ = {
+			isa = PBXGroup;
+			children = (
+				A2C719E0263C71D000EC62FE /* AppDelegate.swift */,
+				A2C719E2263C71D000EC62FE /* SceneDelegate.swift */,
+				A2C719E4263C71D000EC62FE /* ViewController.swift */,
+				A2C719E6263C71D000EC62FE /* Main.storyboard */,
+				A2C719E9263C71D100EC62FE /* Assets.xcassets */,
+				A2C719EB263C71D100EC62FE /* LaunchScreen.storyboard */,
+				A2C719EE263C71D100EC62FE /* Info.plist */,
+			);
+			path = "bitnance assignment";
+			sourceTree = "<group>";
+		};
+		A2C719F6263C71D100EC62FE /* bitnance assignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2C719F7263C71D100EC62FE /* bitnance_assignmentTests.swift */,
+				A2C719F9263C71D100EC62FE /* Info.plist */,
+			);
+			path = "bitnance assignmentTests";
+			sourceTree = "<group>";
+		};
+		A2C71A01263C71D100EC62FE /* bitnance assignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2C71A02263C71D100EC62FE /* bitnance_assignmentUITests.swift */,
+				A2C71A04263C71D100EC62FE /* Info.plist */,
+			);
+			path = "bitnance assignmentUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2C719DC263C71D000EC62FE /* bitnance assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2C71A07263C71D100EC62FE /* Build configuration list for PBXNativeTarget "bitnance assignment" */;
+			buildPhases = (
+				A2C719D9263C71D000EC62FE /* Sources */,
+				A2C719DA263C71D000EC62FE /* Frameworks */,
+				A2C719DB263C71D000EC62FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bitnance assignment";
+			productName = "bitnance assignment";
+			productReference = A2C719DD263C71D000EC62FE /* bitnance assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2C719F2263C71D100EC62FE /* bitnance assignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2C71A0A263C71D100EC62FE /* Build configuration list for PBXNativeTarget "bitnance assignmentTests" */;
+			buildPhases = (
+				A2C719EF263C71D100EC62FE /* Sources */,
+				A2C719F0263C71D100EC62FE /* Frameworks */,
+				A2C719F1263C71D100EC62FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2C719F5263C71D100EC62FE /* PBXTargetDependency */,
+			);
+			name = "bitnance assignmentTests";
+			productName = "bitnance assignmentTests";
+			productReference = A2C719F3263C71D100EC62FE /* bitnance assignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2C719FD263C71D100EC62FE /* bitnance assignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2C71A0D263C71D100EC62FE /* Build configuration list for PBXNativeTarget "bitnance assignmentUITests" */;
+			buildPhases = (
+				A2C719FA263C71D100EC62FE /* Sources */,
+				A2C719FB263C71D100EC62FE /* Frameworks */,
+				A2C719FC263C71D100EC62FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2C71A00263C71D100EC62FE /* PBXTargetDependency */,
+			);
+			name = "bitnance assignmentUITests";
+			productName = "bitnance assignmentUITests";
+			productReference = A2C719FE263C71D100EC62FE /* bitnance assignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2C719D5263C71D000EC62FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					A2C719DC263C71D000EC62FE = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					A2C719F2263C71D100EC62FE = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = A2C719DC263C71D000EC62FE;
+					};
+					A2C719FD263C71D100EC62FE = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = A2C719DC263C71D000EC62FE;
+					};
+				};
+			};
+			buildConfigurationList = A2C719D8263C71D000EC62FE /* Build configuration list for PBXProject "bitnance assignment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2C719D4263C71D000EC62FE;
+			productRefGroup = A2C719DE263C71D000EC62FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2C719DC263C71D000EC62FE /* bitnance assignment */,
+				A2C719F2263C71D100EC62FE /* bitnance assignmentTests */,
+				A2C719FD263C71D100EC62FE /* bitnance assignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2C719DB263C71D000EC62FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C719ED263C71D100EC62FE /* LaunchScreen.storyboard in Resources */,
+				A2C719EA263C71D100EC62FE /* Assets.xcassets in Resources */,
+				A2C719E8263C71D000EC62FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C719F1263C71D100EC62FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C719FC263C71D100EC62FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2C719D9263C71D000EC62FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C719E5263C71D000EC62FE /* ViewController.swift in Sources */,
+				A2C719E1263C71D000EC62FE /* AppDelegate.swift in Sources */,
+				A2C719E3263C71D000EC62FE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C719EF263C71D100EC62FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C719F8263C71D100EC62FE /* bitnance_assignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C719FA263C71D100EC62FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C71A03263C71D100EC62FE /* bitnance_assignmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2C719F5263C71D100EC62FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2C719DC263C71D000EC62FE /* bitnance assignment */;
+			targetProxy = A2C719F4263C71D100EC62FE /* PBXContainerItemProxy */;
+		};
+		A2C71A00263C71D100EC62FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2C719DC263C71D000EC62FE /* bitnance assignment */;
+			targetProxy = A2C719FF263C71D100EC62FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2C719E6263C71D000EC62FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2C719E7263C71D000EC62FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2C719EB263C71D100EC62FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2C719EC263C71D100EC62FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2C71A05263C71D100EC62FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2C71A06263C71D100EC62FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2C71A08263C71D100EC62FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XPF2N9W77B;
+				INFOPLIST_FILE = "bitnance assignment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "th.wism.bitnance-assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2C71A09263C71D100EC62FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XPF2N9W77B;
+				INFOPLIST_FILE = "bitnance assignment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "th.wism.bitnance-assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A2C71A0B263C71D100EC62FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XPF2N9W77B;
+				INFOPLIST_FILE = "bitnance assignmentTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "th.wism.bitnance-assignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bitnance assignment.app/bitnance assignment";
+			};
+			name = Debug;
+		};
+		A2C71A0C263C71D100EC62FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XPF2N9W77B;
+				INFOPLIST_FILE = "bitnance assignmentTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "th.wism.bitnance-assignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bitnance assignment.app/bitnance assignment";
+			};
+			name = Release;
+		};
+		A2C71A0E263C71D100EC62FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XPF2N9W77B;
+				INFOPLIST_FILE = "bitnance assignmentUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "th.wism.bitnance-assignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "bitnance assignment";
+			};
+			name = Debug;
+		};
+		A2C71A0F263C71D100EC62FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XPF2N9W77B;
+				INFOPLIST_FILE = "bitnance assignmentUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "th.wism.bitnance-assignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "bitnance assignment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2C719D8263C71D000EC62FE /* Build configuration list for PBXProject "bitnance assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C71A05263C71D100EC62FE /* Debug */,
+				A2C71A06263C71D100EC62FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2C71A07263C71D100EC62FE /* Build configuration list for PBXNativeTarget "bitnance assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C71A08263C71D100EC62FE /* Debug */,
+				A2C71A09263C71D100EC62FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2C71A0A263C71D100EC62FE /* Build configuration list for PBXNativeTarget "bitnance assignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C71A0B263C71D100EC62FE /* Debug */,
+				A2C71A0C263C71D100EC62FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2C71A0D263C71D100EC62FE /* Build configuration list for PBXNativeTarget "bitnance assignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C71A0E263C71D100EC62FE /* Debug */,
+				A2C71A0F263C71D100EC62FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2C719D5263C71D000EC62FE /* Project object */;
+}
