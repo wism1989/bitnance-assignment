@@ -1,0 +1,6 @@
+framework module Pods_bitnance_assignment_bitnance_assignmentUITests {
+  umbrella header "Pods-bitnance assignment-bitnance assignmentUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
